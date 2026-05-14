@@ -104,18 +104,23 @@
 
     /* HERO SECTION */
     .hero {
-      background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url('https://raw.githubusercontent.com/SanderTank878/foxtrot-home-solutions/main/images/header-banner.png');
+      background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 600"><defs><style>.dc-flag{fill:%23dc143c}.md-flag{fill:%23cc0000}.va-seal{fill:%230a3161}.fox-head{fill:%23000}.text{font-family:Arial,sans-serif;font-weight:bold;font-size:48px;fill:%23000}</style></defs><rect width="1920" height="600" fill="%23999"/><g transform="translate(250,100)"><rect width="320" height="240" fill="white"/><circle cx="45" cy="45" r="30" class="dc-flag"/><circle cx="160" cy="45" r="30" class="dc-flag"/><circle cx="275" cy="45" r="30" class="dc-flag"/><rect y="85" width="320" height="50" class="dc-flag"/><rect y="155" width="320" height="50" class="dc-flag"/></g><g transform="translate(150,280)"><rect width="100" height="100" fill="%23000"/><rect width="50" height="50" fill="%23ffcc00"/><rect x="50" width="50" height="50" fill="%23000"/><rect y="50" width="50" height="50" fill="%23000"/><rect x="50" y="50" width="50" height="50" fill="%23ffcc00"/></g><g transform="translate(300,280)"><rect width="100" height="100" fill="white"/><circle cx="50" cy="50" r="40" fill="%238b0000"/><path d="M 30,30 L 70,30 L 50,50 Z" fill="white"/></g><g transform="translate(450,280)"><rect width="200" height="100" class="va-seal"/><circle cx="100" cy="50" r="45" fill="white"/><text x="100" y="70" text-anchor="middle" class="text">VA</text></g><g transform="translate(1300,150)"><path class="fox-head" d="M 200,100 Q 180,80 160,100 L 150,120 Q 160,110 200,110 Q 240,110 250,120 Z M 180,130 Q 175,150 200,160 Q 225,150 220,130"/></g><text x="1400" y="300" text-anchor="middle" class="text" font-size="72">FOXTROT HOME SOLUTIONS</text></svg>');
       background-size: cover;
       background-position: center;
       color: white;
       padding: 100px 20px;
       text-align: center;
+      min-height: 600px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
 
     .hero h1 {
       font-size: 3.5rem;
       margin-bottom: 15px;
-      text-shadow: 2px 2px 4px rgba(0,0,0,.3);
+      text-shadow: 2px 2px 4px rgba(0,0,0,.5);
     }
 
     .hero p {
@@ -124,7 +129,7 @@
       max-width: 800px;
       margin-left: auto;
       margin-right: auto;
-      text-shadow: 1px 1px 3px rgba(0,0,0,.3);
+      text-shadow: 1px 1px 3px rgba(0,0,0,.5);
     }
 
     .hero-cta {
