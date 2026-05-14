@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Foxtrot Home Solutions</title>
+
+  <meta name="description" content="Foxtrot Home Solutions provides wildlife removal, pest control, attic restoration, roofing, insulation, and siding repair throughout Washington DC, Northern Virginia, and Maryland.">
+
+  <meta name="keywords" content="noise in attic, scratching in attic, ceiling damage from animal, raccoon removal DC, squirrel removal Northern Virginia, bat removal Maryland, attic insulation repair, wildlife control">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background: #f4f4f4;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    header {
+      background:
+        linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)),
+        url('https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1600&auto=format&fit=crop');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      text-align: center;
+      padding: 120px 20px;
+    }
+
+    header h1 {
+      font-size: 3.5rem;
+      margin-bottom: 15px;
+    }
+
+    header p {
+      max-width: 850px;
+      margin: auto;
+      font-size: 1.2rem;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 14px 28px;
+      background: #d62828;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    .btn:hover {
+      background: #b01e1e;
+      transition: 0.3s;
+    }
+
+    nav {
+      background: #1d3557;
+      padding: 15px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #d62828;
+    }
+
+    section {
+      padding: 70px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 40px;
+      color: #1d3557;
+      font-size: 2.3rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 25px;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,.1);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(0,0,0,.15);
+    }
+
+    .card h3 {
+      color: #d62828;
+      margin-bottom: 12px;
+    }
+
+    .hero-highlight {
+      background: #1d3557;
+      color: white;
+      padding: 50px;
+      border-radius: 12px;
+      text-align: center;
+    }
+
+    .hero-highlight p {
+      max-width: 900px;
+      margin: auto;
+      font-size: 1.1rem;
+    }
+
+    .service-list {
+      columns: 2;
+      margin-top: 20px;
+    }
+
+    .service-list li {
+      margin-bottom: 10px;
+    }
+
+    .seo-box {
+      margin-top: 35px;
+      background: #fff;
+      border-left: 6px solid #d62828;
+      padding: 25px;
+      border-radius: 6px;
+    }
+
+    .contact-box {
+      background: white;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,.1);
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    form {
+      display: grid;
+      gap: 15px;
+      margin-top: 25px;
+    }
+
+    input,
+    textarea {
+      padding: 14px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      width: 100%;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    input:focus,
+    textarea:focus {
+      outline: none;
+      border-color: #d62828;
+      box-shadow: 0 0 5px rgba(214, 40, 40, 0.3);
+    }
+
+    button {
+      background: #d62828;
+      color: white;
+      border: none;
+      padding: 15px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1rem;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    button:hover {
+      background: #b01e1e;
+    }
+
+    footer {
+      background: #111;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+      margin-top: 40px;
+    }
+
+    @media(max-width:768px) {
+      header h1 {
+        font-size: 2.4rem;
+      }
+
+      header p {
+        font-size: 1rem;
+      }
+
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+
+      .service-list {
+        columns: 1;
+      }
+
+      .contact-box {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Foxtrot Home Solutions</h1>
+
+  <p>
+    Wildlife Removal, Pest Control, Roofing, Insulation, and Home Repair Services
+    Across Washington DC, Northern Virginia, and Maryland.
+  </p>
+
+  <a href="#contact" class="btn">Get A Free Inspection</a>
+</header>
+
+<nav>
+  <a href="#services">Services</a>
+  <a href="#damage">Damage Repair</a>
+  <a href="#areas">Service Areas</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="services">
+  <h2>Wildlife & Pest Control Services</h2>
+
+  <div class="grid">
+
+    <div class="card">
+      <h3>Raccoon Removal</h3>
+      <p>
+        Humane raccoon trapping, attic exclusion, cleanup, and prevention services.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Squirrel Removal</h3>
+      <p>
+        Hearing scratching in attic spaces? We remove squirrels and repair entry points.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Bat Removal</h3>
+      <p>
+        Safe bat exclusion and attic sanitation services for homes and businesses.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Mice & Rat Control</h3>
+      <p>
+        Rodent extermination, contamination cleanup, and long-term prevention.
+      </p>
+    </div>
+
+  </div>
+
+  <div class="seo-box">
+    <h3>Additional Pest Services</h3>
+
+    <ul class="service-list">
+      <li>Termites</li>
+      <li>Bed Bugs</li>
+      <li>Roaches</li>
+      <li>Fleas</li>
+      <li>Mites</li>
+      <li>Bird Removal</li>
+      <li>Fox Removal</li>
+      <li>Deer Control</li>
+      <li>Bee Removal</li>
+      <li>Honey Bee Relocation</li>
+      <li>Wildlife Exclusion</li>
+      <li>Attic Cleanup</li>
+    </ul>
+  </div>
+</section>
+
+<section id="damage">
+  <div class="hero-highlight">
+
+    <h2>Home Damage Repair & Restoration</h2>
+
+    <p>
+      Many wildlife problems lead to insulation damage, roof leaks, soffit destruction,
+      contaminated attics, and ceiling damage from animal activity. Foxtrot Home Solutions
+      combines pest removal with full home restoration services.
+    </p>
+
+  </div>
+
+  <div class="grid" style="margin-top:40px;">
+
+    <div class="card">
+      <h3>Attic Insulation Replacement</h3>
+      <p>
+        Replace contaminated insulation caused by raccoons, bats, squirrels, mice, and rats.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Roof Repair</h3>
+      <p>
+        Repair roof vents, shingles, flashing, and animal-created entry holes.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Siding & Soffit Repair</h3>
+      <p>
+        Restore damaged siding and secure vulnerable exterior areas.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Ceiling Damage Repair</h3>
+      <p>
+        Repair stains, sagging drywall, and structural issues caused by animal infestations.
+      </p>
+    </div>
+
+  </div>
+
+  <div class="seo-box">
+    <h3>Common Problems We Solve</h3>
+
+    <p>
+      If you hear noise in attic spaces, scratching in attic walls,
+      or notice ceiling damage from animal activity, our team can inspect,
+      remove pests, repair damage, and restore your home quickly.
+    </p>
+  </div>
+</section>
+
+<section id="areas">
+
+  <h2>Serving The DC Metro Area</h2>
+
+  <div class="card">
+
+    <p>
+      Foxtrot Home Solutions proudly serves homeowners within a 75-mile radius of Washington DC.
+    </p>
+
+    <br>
+
+    <p>
+      Areas include:
+    </p>
+
+    <br>
+
+    <p>
+      Washington DC, Arlington, Alexandria, Fairfax, McLean, Reston,
+      Loudoun County, Prince William County, Manassas, Leesburg,
+      Bethesda, Rockville, Silver Spring, Frederick, Bowie,
+      Annapolis, Waldorf, Columbia, and surrounding communities.
+    </p>
+
+  </div>
+
+</section>
+
+<section id="contact">
+
+  <div class="contact-box">
+
+    <h2>Schedule Your Free Inspection</h2>
+
+    <p>
+      Contact Foxtrot Home Solutions today for fast pest control and home repair services.
+    </p>
+
+    <form>
+
+      <input type="text" placeholder="Full Name" required>
+
+      <input type="email" placeholder="Email Address" required>
+
+      <input type="tel" placeholder="Phone Number" required>
+
+      <textarea rows="6"
+        placeholder="Describe your issue (noise in attic, scratching sounds, roof damage, pest issue, etc.)"></textarea>
+
+      <button type="submit">Request Service</button>
+
+    </form>
+
+  </div>
+
+</section>
+
+<footer>
+  <p>© 2026 Foxtrot Home Solutions</p>
+  <p>Wildlife Removal • Pest Control • Roofing • Insulation • Home Repair</p>
+</footer>
+
+</body>
+</html>
